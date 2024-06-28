@@ -7,7 +7,6 @@ interface AppProps {
 }
 
 const App: React.FC<AppProps> = ({ color=false }) => {
-  console.log('🚀 ~ color:', color)
   return (
     <Page1 color={color} />
   );
