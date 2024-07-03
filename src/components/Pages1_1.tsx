@@ -6,7 +6,7 @@ interface Page1Props {
   changePage: boolean;
 }
 
-const Page1: React.FC<Page1Props> = ({ color = false, changePage = false }) => {
+const Page1_1: React.FC<Page1Props> = ({ color = false, changePage = false }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -20,12 +20,12 @@ const Page1: React.FC<Page1Props> = ({ color = false, changePage = false }) => {
   return (
     <div
       className={`flex items-center justify-center flex-grow ${
-        color ? "bg-green-500" : "bg-yellow-500"
+        color ? "bg-orange-500" : "bg-blue-500"
       } bg-opacity-50`}
     >
-      <h1>Remote Component A</h1>
+      <h1>Remote Component A.1</h1>
     </div>
   );
 };
 
-export default Page1;
+export default Page1_1;

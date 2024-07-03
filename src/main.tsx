@@ -5,6 +5,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App color={false} />
+    <App color={false} changePage={false} />
   </React.StrictMode>,
 )
